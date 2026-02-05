@@ -1,34 +1,72 @@
-// CIS_5 Week 3 Example – Score Analyzer with Pre-filled Data
-
 #include <iostream>
-#include <iomanip>   // for std::fixed and std::setprecision
+#include <iomanip>
+
+using std::cout;
+using std::end;
+using std::string;
+using std::setprecision;
+
+
 
 int main() {
-    // =============================================
-    //  Pre-filled test scores (30 students)
-    // =============================================
-    const int MAX_STUDENTS = 30;
-    int scores[MAX_STUDENTS] = {
+
+    // An array of 30 student test scores (0-100)
+
+    int scores[30] = {
+
         78, 92, 65, 88, 45, 100, 72, 81, 59, 96,
+
         84, 67, 91, 53, 77, 89, 62, 98, 74, 85,
+
         48, 93, 70, 82, 66, 95, 55, 87, 79, 64
+
     };
 
-    // We will only use the first 30 (full array in this case)
+
+
+    // score variables for calculation
+
+    int sum = 0;
+
+    int highestscore = scores[0];
+
+    int lowestscore= scores[0];
+
+    int passedCount = 0;  // score >= 60
+
+    int aCount = 0;       // score >= 80,90
+
+
+
     const int numStudents = 30;
 
-    // =============================================
-    //  Calculations
-    // =============================================
 
 
-    // =============================================
-    //  Output
-    // =============================================
+    // Calculations for the: sum, highest, lowest, passed count, A count
 
-    // Print scores using range-based for (modern & clean)
+        if (score > highest) highest = score;
 
-    // Print in reverse using classic for
+        if (score < lowest) lowest = score;
 
-    return 0;
+        if (score >= 60) ++passedCount;
+
+        if (score >= 90) ++aCount;
+
+    }
+
+
+
+    std::cout << "Number of students: " << numStudents << ;
+
+    std::cout << "Average score:      " << std::fixed << std::setprecision(2) << average << \n';
+
+    std::cout << "Highest score:      " << highest << ;
+
+    std::cout << "Lowest score:       " << lowest << ;
+
+    std::cout << "Students passed:    " << passedCount << "  (>= 60)" << ;
+
+    std::cout << "Students with A or B:    " << aCount << "   (>= 80,90)" << ;
+
+return 0;
 }
