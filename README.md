@@ -52,3 +52,26 @@ Scores in reverse order:
 #include <iostream>
 #include <iomanip>   // for std::fixed and std::setprecision
 ```
+
+## My Video Explanation
+https://share.icloud.com/photos/094rdwz_YmIlpCKb5DbDbyrHQ
+
+## My written Notes
+![image](https://github.com/user-attachments/assets/a41a4a12-0d03-4910-b91e-6c9797ed07b9)
+
+![image](https://github.com/user-attachments/assets/8deb033a-bebd-4642-b478-8a10a922caf2)
+
+![image](https://github.com/user-attachments/assets/2a3aca8c-843c-4350-9a3a-1bfe02fd08ca)
+
+![image](https://github.com/user-attachments/assets/af2566b7-b955-4eb2-a44d-73a62096e830)
+
+![image](https://github.com/user-attachments/assets/f0e20de4-efd6-40fc-a1c8-560b68f6dc5c)
+
+![image](https://github.com/user-attachments/assets/44121093-d11a-489f-bd04-7334512d84ee)
+
+
+
+
+
+
+
